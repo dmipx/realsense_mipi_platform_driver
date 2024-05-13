@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: Build JP 5.0.2
 
 on:
   push:
@@ -7,6 +7,8 @@ on:
     - dev
   pull_request:
     branches: ['**']
+
+permissions: read-all
 
 jobs:
   build:
